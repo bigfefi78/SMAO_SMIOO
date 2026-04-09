@@ -3,12 +3,12 @@ Manager database prodotti (SQLite)
 """
 
 import sqlite3
+import traceback
 from pathlib import Path
 from typing import List, Optional, Dict
 from datetime import datetime
 
 from models import Product
-
 from core.logging_tools import GuiLogger
 
 
@@ -23,7 +23,6 @@ class ProductsDB:
             f"Database prodotti inizializzato: {self.db_path.absolute()}",
             sender=self.__class__.__name__,
         )
-        # print(f"[ProductsDB] Database: {self.db_path.absolute()}")
 
     def _init_db(self):
         """Crea tabelle se non esistono"""
@@ -64,6 +63,19 @@ class ProductsDB:
 
             conn.commit()
 
+    def _row_to_product(self, row) -> Product:
+        """Converte una riga del database in oggetto Product."""
+        return Product(
+            id=row[0],
+            code=row[1],
+            type=row[2],
+            description=row[3],
+            connector=row[4],
+            created_at=datetime.fromisoformat(row[5]) if row[5] else None,
+            last_tested_at=datetime.fromisoformat(row[6]) if row[6] else None,
+            notes=row[7],
+        )
+
     def import_from_json(self, json_data: List[Dict]) -> int:
         """
         Importa prodotti da lista JSON (come ELENCO.json)
@@ -101,14 +113,12 @@ class ProductsDB:
                         f"Errore import '{item.get('CODICE')}': {ex}",
                         sender=self.__class__.__name__,
                     )
-                    # print(f"[ProductsDB] Errore import '{item.get('CODICE')}': {ex}")
 
             conn.commit()
 
         self.logger.info(
             f"Importati {count} prodotti da JSON", sender=self.__class__.__name__
         )
-        # print(f"[ProductsDB] Importati {count} prodotti")
         return count
 
     def add_product(self, product: Product) -> bool:
@@ -137,7 +147,6 @@ class ProductsDB:
             self.logger.info(
                 f"Prodotto salvato: {product.code}", sender=self.__class__.__name__
             )
-            # print(f"[ProductsDB] ✓ Prodotto salvato: {product.code}")
             return True
 
         except Exception as ex:
@@ -145,7 +154,6 @@ class ProductsDB:
                 f"Errore add_product '{product.code}': {ex}",
                 sender=self.__class__.__name__,
             )
-            # print(f"[ProductsDB] ✗ Errore add_product: {ex}")
             return False
 
     def update_product(self, product: Product) -> bool:
@@ -174,7 +182,6 @@ class ProductsDB:
             self.logger.info(
                 f"Prodotto aggiornato: {product.code}", sender=self.__class__.__name__
             )
-            # print(f"[ProductsDB] ✓ Prodotto aggiornato: {product.code}")
             return True
 
         except Exception as ex:
@@ -182,7 +189,6 @@ class ProductsDB:
                 f"Errore update_product '{product.code}': {ex}",
                 sender=self.__class__.__name__,
             )
-            # print(f"[ProductsDB] ✗ Errore update_product: {ex}")
             return False
 
     def delete_product(self, code: str) -> bool:
@@ -195,7 +201,6 @@ class ProductsDB:
             self.logger.info(
                 f"Prodotto eliminato: {code}", sender=self.__class__.__name__
             )
-            # print(f"[ProductsDB] ✓ Prodotto eliminato: {code}")
             return True
 
         except Exception as ex:
@@ -203,7 +208,6 @@ class ProductsDB:
                 f"Errore delete_product '{code}': {ex}",
                 sender=self.__class__.__name__,
             )
-            # print(f"[ProductsDB] ✗ Errore delete_product: {ex}")
             return False
 
     def get_product(self, code: str) -> Optional[Product]:
@@ -224,18 +228,7 @@ class ProductsDB:
                 row = cursor.fetchone()
 
                 if row:
-                    return Product(
-                        id=row[0],
-                        code=row[1],
-                        type=row[2],
-                        description=row[3],
-                        connector=row[4],
-                        created_at=datetime.fromisoformat(row[5]) if row[5] else None,
-                        last_tested_at=datetime.fromisoformat(row[6])
-                        if row[6]
-                        else None,
-                        notes=row[7],
-                    )
+                    return self._row_to_product(row)
 
                 return None
 
@@ -243,7 +236,6 @@ class ProductsDB:
             self.logger.error(
                 f"Errore get_product '{code}': {ex}", sender=self.__class__.__name__
             )
-            # print(f"[ProductsDB] ✗ Errore get_product: {ex}")
             return None
 
     def search_products(self, query: str) -> List[Product]:
@@ -273,36 +265,13 @@ class ProductsDB:
                     )
 
                 rows = cursor.fetchall()
-
-                products = []
-                for row in rows:
-                    products.append(
-                        Product(
-                            id=row[0],
-                            code=row[1],
-                            type=row[2],
-                            description=row[3],
-                            connector=row[4],
-                            created_at=datetime.fromisoformat(row[5])
-                            if row[5]
-                            else None,
-                            last_tested_at=datetime.fromisoformat(row[6])
-                            if row[6]
-                            else None,
-                            notes=row[7],
-                        )
-                    )
-
-                return products
+                return [self._row_to_product(row) for row in rows]
 
         except Exception as ex:
             self.logger.error(
                 f"Errore search_products '{query}': {ex}",
                 sender=self.__class__.__name__,
             )
-            # print(f"[ProductsDB] ✗ Errore search_products: {ex}")
-            import traceback
-
             traceback.print_exc()
             return []
 
@@ -323,7 +292,6 @@ class ProductsDB:
             self.logger.error(
                 f"Errore get_product_types: {ex}", sender=self.__class__.__name__
             )
-            # print(f"[ProductsDB] ✗ Errore get_product_types: {ex}")
             return []
 
     def get_products_by_type(self, product_type: str) -> List[Product]:
@@ -344,34 +312,13 @@ class ProductsDB:
                 )
 
                 rows = cursor.fetchall()
-
-                products = []
-                for row in rows:
-                    products.append(
-                        Product(
-                            id=row[0],
-                            code=row[1],
-                            type=row[2],
-                            description=row[3],
-                            connector=row[4],
-                            created_at=datetime.fromisoformat(row[5])
-                            if row[5]
-                            else None,
-                            last_tested_at=datetime.fromisoformat(row[6])
-                            if row[6]
-                            else None,
-                            notes=row[7],
-                        )
-                    )
-
-                return products
+                return [self._row_to_product(row) for row in rows]
 
         except Exception as ex:
             self.logger.error(
                 f"Errore get_products_by_type '{product_type}': {ex}",
                 sender=self.__class__.__name__,
             )
-            # print(f"[ProductsDB] ✗ Errore get_products_by_type: {ex}")
             return []
 
     def get_stats(self) -> Dict:
@@ -380,11 +327,9 @@ class ProductsDB:
             with sqlite3.connect(self.db_path) as conn:
                 cursor = conn.cursor()
 
-                # Conta totale
                 cursor.execute("SELECT COUNT(*) FROM products")
                 total = cursor.fetchone()[0]
 
-                # Conta per tipo
                 cursor.execute("""
                     SELECT type, COUNT(*) 
                     FROM products 
@@ -397,5 +342,4 @@ class ProductsDB:
 
         except Exception as ex:
             self.logger.error(f"Errore get_stats: {ex}", sender=self.__class__.__name__)
-            # print(f"[ProductsDB] ✗ Errore get_stats: {ex}")
             return {"total": 0, "by_type": {}}
