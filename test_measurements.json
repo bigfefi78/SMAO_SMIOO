@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "measurements": [
+    {
+      "id": "6062bb39-e29c-449d-8889-539ec0cbd760",
+      "name": "Test Misura",
+      "description": "",
+      "type": "CUSTOM",
+      "channels": [
+        "T-01",
+        "T-02"
+      ],
+      "formula": "{T-01} - {T-02}",
+      "unit": "µm",
+      "decimals": 2,
+      "color": "#2196F3",
+      "min_limit": null,
+      "max_limit": null,
+      "enabled": true
+    }
+  ]
+}

@@ -1,0 +1,1794 @@
+[
+    {
+        "CODICE": "B3408104001",
+        "CONNETTORE": "VEAM (BUFFER)",
+        "DESCRIZIONE": "MICROMAR 2 SOLO PER RICAMBI",
+        "ID": 1,
+        "TIPO": "MICROMAR 2"
+    },
+    {
+        "CODICE": "B3408104002",
+        "CONNETTORE": "VEAM (BUFFER)",
+        "DESCRIZIONE": "MICROMAR 2 SOLO PER RICAMBI",
+        "ID": 2,
+        "TIPO": "MICROMAR 2"
+    },
+    {
+        "CODICE": "B3408104003",
+        "CONNETTORE": "VEAM (BUFFER)",
+        "DESCRIZIONE": "VEDI 3408104006",
+        "ID": 3,
+        "TIPO": "MICROMAR 2"
+    },
+    {
+        "CODICE": "B3408104004",
+        "CONNETTORE": "VEAM",
+        "DESCRIZIONE": "MICR. 2 CAVO 4,5 MT SOLO RICAMBI",
+        "ID": 4,
+        "TIPO": "MICROMAR 2"
+    },
+    {
+        "CODICE": "B3408104005",
+        "CONNETTORE": "VEAM (BUFFER)",
+        "DESCRIZIONE": "MICR.2 RB.1,5-2,2 SOLO RICAMBI",
+        "ID": 5,
+        "TIPO": "MICROMAR 2"
+    },
+    {
+        "CODICE": "B3408104006",
+        "CONNETTORE": "VEAM (BUFFER)",
+        "DESCRIZIONE": "MIC2-RB 1,14-1,55 CAVO 3 MT",
+        "ID": 6,
+        "TIPO": "MICROMAR 2"
+    },
+    {
+        "CODICE": "B3408104007",
+        "CONNETTORE": "VEAM",
+        "DESCRIZIONE": "COME 3408104006 MA CAVO 4,5 MT",
+        "ID": 7,
+        "TIPO": "MICROMAR 2"
+    },
+    {
+        "CODICE": "B3408104008",
+        "CONNETTORE": "VEAM (BUFFER)",
+        "DESCRIZIONE": "COME 3408104006 MA RB 1,5-2,2",
+        "ID": 8,
+        "TIPO": "MICROMAR 2"
+    },
+    {
+        "CODICE": "B3408104010",
+        "CONNETTORE": "VEAM",
+        "DESCRIZIONE": "COME 006 MA CAVO A 90 GR.+ OLIO",
+        "ID": 9,
+        "TIPO": "MICROMAR 2"
+    },
+    {
+        "CODICE": "B3408104011",
+        "CONNETTORE": "VEAM (BUFFER)",
+        "DESCRIZIONE": "COME 006 MA CON OLIO",
+        "ID": 10,
+        "TIPO": "MICROMAR 2"
+    },
+    {
+        "CODICE": "B3408104012",
+        "CONNETTORE": "VEAM (BUFFER)",
+        "DESCRIZIONE": "MICROMAR 2 COME 3408104008 + OLIO",
+        "ID": 11,
+        "TIPO": "MICROMAR 2"
+    },
+    {
+        "CODICE": "B3408387000",
+        "CONNETTORE": "CAVO + VEAM + BUFFER",
+        "DESCRIZIONE": "VEDI 3408387010",
+        "ID": 12,
+        "TIPO": "MICROMAR 3"
+    },
+    {
+        "CODICE": "B3408387001",
+        "CONNETTORE": "CAVO + VEAM + BUFFER",
+        "DESCRIZIONE": "VEDI 3408387011",
+        "ID": 13,
+        "TIPO": "MICROMAR 3"
+    },
+    {
+        "CODICE": "B3408387002",
+        "CONNETTORE": "CAVO + VEAM + BUFFER",
+        "DESCRIZIONE": "VEDI 3408387012",
+        "ID": 14,
+        "TIPO": "MICROMAR 3"
+    },
+    {
+        "CODICE": "B3408387003",
+        "CONNETTORE": "CAVO + VEAM + BUFFER",
+        "DESCRIZIONE": "VEDI 3408387013",
+        "ID": 15,
+        "TIPO": "MICROMAR 3"
+    },
+    {
+        "CODICE": "B3408387010",
+        "CONNETTORE": "CAVO + VEAM + BUFFER",
+        "DESCRIZIONE": "MIC.3 D.C.RB.1,14-1,55L=50 C.3 M",
+        "ID": 16,
+        "TIPO": "MICROMAR 3"
+    },
+    {
+        "CODICE": "B3408387011",
+        "CONNETTORE": "CAVO + VEAM + BUFFER",
+        "DESCRIZIONE": "MIC.3 D.C.RB.1,50-2,20L=68 C.3 M",
+        "ID": 17,
+        "TIPO": "MICROMAR 3"
+    },
+    {
+        "CODICE": "B3408387012",
+        "CONNETTORE": "CAVO + VEAM + BUFFER",
+        "DESCRIZIONE": "MIC.3 D.C.RB.1,60-2,70L=90 C.4,5",
+        "ID": 18,
+        "TIPO": "MICROMAR 3"
+    },
+    {
+        "CODICE": "B3408387013",
+        "CONNETTORE": "CAVO + VEAM + BUFFER",
+        "DESCRIZIONE": "MIC.3 D.C.RB.1,50-2,20L=90 C.6 M",
+        "ID": 19,
+        "TIPO": "MICROMAR 3"
+    },
+    {
+        "CODICE": "B3408387014",
+        "CONNETTORE": "CAVO + VEAM + BUFFER",
+        "DESCRIZIONE": "COME 3408387010 MA TARAT.X DIRAC",
+        "ID": 20,
+        "TIPO": "MICROMAR 3"
+    },
+    {
+        "CODICE": "B3408387015",
+        "CONNETTORE": "CAVO + VEAM + BUFFER",
+        "DESCRIZIONE": "MIC.3 D.C.RB.1,60-2,70L=90 C.3 MT",
+        "ID": 21,
+        "TIPO": "MICROMAR 3"
+    },
+    {
+        "CODICE": "B3408387016",
+        "CONNETTORE": "CAVO + VEAM + BUFFER",
+        "DESCRIZIONE": "MIC.3 D.C.RB.1,14-1,55L=50 C.6 M",
+        "ID": 22,
+        "TIPO": "MICROMAR 3"
+    },
+    {
+        "CODICE": "B3408387017",
+        "CONNETTORE": "CAVO + VEAM + BUFFER",
+        "DESCRIZIONE": "VEDI 3408387013",
+        "ID": 23,
+        "TIPO": "MICROMAR 3"
+    },
+    {
+        "CODICE": "B3408387018",
+        "CONNETTORE": "CAVO + VEAM + BUFFER",
+        "DESCRIZIONE": "MIC.3 RB.1,5-2,2L=68 C.9M",
+        "ID": 24,
+        "TIPO": "MICROMAR 3"
+    },
+    {
+        "CODICE": "B3408387019",
+        "CONNETTORE": "CAVO + VEAM + BUFFER",
+        "DESCRIZIONE": "MIC.3 ORZ.RB.1,60-2,70L=90 C.4,5",
+        "ID": 25,
+        "TIPO": "MICROMAR 3"
+    },
+    {
+        "CODICE": "B3408387020",
+        "CONNETTORE": "VEAM (?)",
+        "DESCRIZIONE": "VEDI 3408387012",
+        "ID": 26,
+        "TIPO": "MICROMAR 3"
+    },
+    {
+        "CODICE": "B3408387021",
+        "CONNETTORE": "CAVO + VEAM + BUFFER",
+        "DESCRIZIONE": "MIC.3 D.C.RB.1,60-2,70L=90 C.6 M",
+        "ID": 27,
+        "TIPO": "MICROMAR 3"
+    },
+    {
+        "CODICE": "B3408387022",
+        "CONNETTORE": "CAVO + VEAM + BUFFER",
+        "DESCRIZIONE": "VEDI 3408387010",
+        "ID": 28,
+        "TIPO": "MICROMAR 3"
+    },
+    {
+        "CODICE": "B3408387023",
+        "CONNETTORE": "CAVO + VEAM + BUFFER",
+        "DESCRIZIONE": "COME 3408387011 MA CON OLIO 47V1000",
+        "ID": 29,
+        "TIPO": "MICROMAR 3"
+    },
+    {
+        "CODICE": "B3408387024",
+        "CONNETTORE": "CAVO + VEAM + BUFFER",
+        "DESCRIZIONE": "MIC.3 ORIZ. RB.1.60-2.70 L=90 C.3",
+        "ID": 30,
+        "TIPO": "MICROMAR 3"
+    },
+    {
+        "CODICE": "B3408387025",
+        "CONNETTORE": "CAVO + VEAM + BUFFER",
+        "DESCRIZIONE": "MIC.3 D.C.RB.1,14-1,55L=50 C.9 M",
+        "ID": 31,
+        "TIPO": "MICROMAR 3"
+    },
+    {
+        "CODICE": "B3408387026",
+        "CONNETTORE": "CAVO + VEAM + BUFFER",
+        "DESCRIZIONE": "MIC.3 D.C.RB.1,60-2,70L=90 MT.1",
+        "ID": 32,
+        "TIPO": "MICROMAR 3"
+    },
+    {
+        "CODICE": "B3408387900",
+        "CONNETTORE": "CAVO + VEAM + BUFFER",
+        "DESCRIZIONE": "MICR.3(011)+GUIDE SENZA POM.+SUPP.",
+        "ID": 33,
+        "TIPO": "MICROMAR 3"
+    },
+    {
+        "CODICE": "B3408387901",
+        "CONNETTORE": "CAVO + VEAM + BUFFER",
+        "DESCRIZIONE": "MICR.3+GUIDE CON POM.+SUPP.",
+        "ID": 34,
+        "TIPO": "MICROMAR 3"
+    },
+    {
+        "CODICE": "B3408387902",
+        "CONNETTORE": "CAVO + VEAM + BUFFER",
+        "DESCRIZIONE": "VEDI 3408387901",
+        "ID": 35,
+        "TIPO": "MICROMAR 3"
+    },
+    {
+        "CODICE": "B3408387903",
+        "CONNETTORE": "CAVO + VEAM + BUFFER",
+        "DESCRIZIONE": "DEMO*MICR.3(013)+GUIDE POM.+ SUPP.",
+        "ID": 36,
+        "TIPO": "MICROMAR 3"
+    },
+    {
+        "CODICE": "B3408387904",
+        "CONNETTORE": "CAVO + VEAM + BUFFER",
+        "DESCRIZIONE": "VEDI 3408387903",
+        "ID": 37,
+        "TIPO": "MICROMAR 3"
+    },
+    {
+        "CODICE": "B3408387905",
+        "CONNETTORE": "CAVO + VEAM + BUFFER",
+        "DESCRIZIONE": "MICR.3(L=55)+GUIDE CON POM.+SUPP.",
+        "ID": 38,
+        "TIPO": "MICROMAR 3"
+    },
+    {
+        "CODICE": "B3408387906",
+        "CONNETTORE": "CAVO + VEAM + BUFFER",
+        "DESCRIZIONE": "MICR.3(012)+GUIDE:POM.+SUPP.",
+        "ID": 39,
+        "TIPO": "MICROMAR 3"
+    },
+    {
+        "CODICE": "B3413294000",
+        "CONNETTORE": "VEAM 7P SUL CORPO",
+        "DESCRIZIONE": "MICROMAR 5 \"OLD\" (VEDI ..905)",
+        "ID": 40,
+        "TIPO": "MICROMAR 5"
+    },
+    {
+        "CODICE": "B3413294001",
+        "CONNETTORE": "VEAM 7P SUL CORPO",
+        "DESCRIZIONE": "A73 CON PRESSACAVO A 90 G",
+        "ID": 41,
+        "TIPO": "MICROMAR 5"
+    },
+    {
+        "CODICE": "B3413294100",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "VEDI 3413294500",
+        "ID": 42,
+        "TIPO": "MICROMAR 5"
+    },
+    {
+        "CODICE": "B3413294150",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "VEDI 3413294550",
+        "ID": 43,
+        "TIPO": "MICROMAR 5"
+    },
+    {
+        "CODICE": "B3413294300",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "A73 COMPLETA",
+        "ID": 44,
+        "TIPO": "MICROMAR 5"
+    },
+    {
+        "CODICE": "B3413294350",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "A73 COMPLETA CON RICARICA",
+        "ID": 45,
+        "TIPO": "MICROMAR 5"
+    },
+    {
+        "CODICE": "B3413294500",
+        "CONNETTORE": "VEAM 7P SUL CORPO",
+        "DESCRIZIONE": "*A73* MICROMAR 5 -SENZA RIC.",
+        "ID": 46,
+        "TIPO": "MICROMAR 5"
+    },
+    {
+        "CODICE": "B3413294502",
+        "CONNETTORE": "VEAM 7P SUL CORPO",
+        "DESCRIZIONE": "\"A73\" MICROMAR 5 DIRAC SENZA RIC.",
+        "ID": 47,
+        "TIPO": "MICROMAR 5"
+    },
+    {
+        "CODICE": "B3413294503",
+        "CONNETTORE": "VEAM 7P SUL CORPO",
+        "DESCRIZIONE": "*A73* MIC.5 CON TDCC-RB.3,71",
+        "ID": 48,
+        "TIPO": "MICROMAR 5"
+    },
+    {
+        "CODICE": "B3413294550",
+        "CONNETTORE": "VEAM 7P SUL CORPO",
+        "DESCRIZIONE": "*A73* MICR.5 PRED.X RIC.",
+        "ID": 49,
+        "TIPO": "MICROMAR 5"
+    },
+    {
+        "CODICE": "B3413294552",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "A73 MICR.5 DIRAC PREDISPOSTO X RIC.",
+        "ID": 50,
+        "TIPO": "MICROMAR 5"
+    },
+    {
+        "CODICE": "B3413294560",
+        "CONNETTORE": "VEAM 7P SUL CORPO",
+        "DESCRIZIONE": "COME 3413294550MA TARAT.SPEC.NUCLEO",
+        "ID": 51,
+        "TIPO": "MICROMAR 5"
+    },
+    {
+        "CODICE": "B3413294900",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "VEDI 3413294905",
+        "ID": 52,
+        "TIPO": "MICROMAR 5"
+    },
+    {
+        "CODICE": "B3413294905",
+        "CONNETTORE": "VEAM 7P SUL CORPO",
+        "DESCRIZIONE": "MICROMAR 5 CON GR. ESCL. RIC.PNEUM.",
+        "ID": 53,
+        "TIPO": "MICROMAR 5"
+    },
+    {
+        "CODICE": "B3413294907",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "\"A73\"MICR5 DIRAC CON GR.ESCL.RICAR.",
+        "ID": 54,
+        "TIPO": "MICROMAR 5"
+    },
+    {
+        "CODICE": "B3413294910",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "VEDI 3413294915",
+        "ID": 55,
+        "TIPO": "MICROMAR 5"
+    },
+    {
+        "CODICE": "B3413294915",
+        "CONNETTORE": "VEAM 7P SUL CORPO",
+        "DESCRIZIONE": "MICR.5 CON GR.AZION.RIC.PN.",
+        "ID": 56,
+        "TIPO": "MICROMAR 5"
+    },
+    {
+        "CODICE": "B3413294916",
+        "CONNETTORE": "VEAM 7P SUL CORPO",
+        "DESCRIZIONE": "3413294560 + 2913294560",
+        "ID": 57,
+        "TIPO": "MICROMAR 5"
+    },
+    {
+        "CODICE": "B3413294917",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "\"A73\"MICR5 DIRAC CON GR.AZ.RIC.PNEU",
+        "ID": 58,
+        "TIPO": "MICROMAR 5"
+    },
+    {
+        "CODICE": "B3413294918",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "MICROMAR 5 CON GR. AZIONAM.RIC.IDR.",
+        "ID": 59,
+        "TIPO": "MICROMAR 5"
+    },
+    {
+        "CODICE": "B3413294950",
+        "CONNETTORE": "VEAM 7P SUL CORPO",
+        "DESCRIZIONE": "TESTA 3413294500+6771116207 CAVO M8",
+        "ID": 60,
+        "TIPO": "MICROMAR 5"
+    },
+    {
+        "CODICE": "B3413294951",
+        "CONNETTORE": "VEAM 7P SUL CORPO",
+        "DESCRIZIONE": "TESTA 3413294500+6771109207 CAVO4,5",
+        "ID": 61,
+        "TIPO": "MICROMAR 5"
+    },
+    {
+        "CODICE": "B3415094000",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "CELLULA MINIATURIZZATA",
+        "ID": 62,
+        "TIPO": "MICROALSAR"
+    },
+    {
+        "CODICE": "B3415094001",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "VEDI 3415094066",
+        "ID": 63,
+        "TIPO": "MICROALSAR"
+    },
+    {
+        "CODICE": "B3415094002",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "VEDI 3415094070",
+        "ID": 64,
+        "TIPO": "MICROALSAR"
+    },
+    {
+        "CODICE": "B3415094003",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "VEDI 3415094067",
+        "ID": 65,
+        "TIPO": "MICROALSAR"
+    },
+    {
+        "CODICE": "B3415094004",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "VEDI 3415094071",
+        "ID": 66,
+        "TIPO": "MICROALSAR"
+    },
+    {
+        "CODICE": "B3415094005",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "VEDI 3415094080",
+        "ID": 67,
+        "TIPO": "MICROALSAR"
+    },
+    {
+        "CODICE": "B3415094006",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "VEDI 3415094063",
+        "ID": 68,
+        "TIPO": "MICROALSAR"
+    },
+    {
+        "CODICE": "B3415094051",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "VEDI 3415094064",
+        "ID": 69,
+        "TIPO": "MICROALSAR"
+    },
+    {
+        "CODICE": "B3415094052",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "VEDI 3415094065",
+        "ID": 70,
+        "TIPO": "MICROALSAR"
+    },
+    {
+        "CODICE": "B3415094053",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "VEDI 3415094069",
+        "ID": 71,
+        "TIPO": "MICROALSAR"
+    },
+    {
+        "CODICE": "B3415094060",
+        "CONNETTORE": "CAVO + VEAM",
+        "DESCRIZIONE": "MICROALSAR/LISCI/1,5M/VEAM/",
+        "ID": 72,
+        "TIPO": "MICROALSAR"
+    },
+    {
+        "CODICE": "B3415094061",
+        "CONNETTORE": "CAVO + VEAM + BUFFER",
+        "DESCRIZIONE": "MICROALSAR/LISCI/1,5M/BUFF/",
+        "ID": 73,
+        "TIPO": "MICROALSAR"
+    },
+    {
+        "CODICE": "B3415094062",
+        "CONNETTORE": "CAVO + VEAM",
+        "DESCRIZIONE": "MICROALSAR/SCAN./1,5M/VEAM/",
+        "ID": 74,
+        "TIPO": "MICROALSAR"
+    },
+    {
+        "CODICE": "B3415094063",
+        "CONNETTORE": "CAVO + VEAM + BUFFER",
+        "DESCRIZIONE": "MICROALSAR/SCAN./1,5M/BUFF/",
+        "ID": 75,
+        "TIPO": "MICROALSAR"
+    },
+    {
+        "CODICE": "B3415094064",
+        "CONNETTORE": "CAVO + VEAM",
+        "DESCRIZIONE": "MICROALSAR/LISCI/3,0M/VEAM/",
+        "ID": 76,
+        "TIPO": "MICROALSAR"
+    },
+    {
+        "CODICE": "B3415094065",
+        "CONNETTORE": "CAVO + VEAM + BUFFER",
+        "DESCRIZIONE": "MICROALSAR/LISCI/3,0M/BUFF/",
+        "ID": 77,
+        "TIPO": "MICROALSAR"
+    },
+    {
+        "CODICE": "B3415094066",
+        "CONNETTORE": "CAVO + VEAM",
+        "DESCRIZIONE": "MICROALSAR/SCAN./3,0M/VEAM/",
+        "ID": 78,
+        "TIPO": "MICROALSAR"
+    },
+    {
+        "CODICE": "B3415094067",
+        "CONNETTORE": "CAVO + VEAM + BUFFER",
+        "DESCRIZIONE": "MICROALSAR/SCAN./3,0M/BUFF/",
+        "ID": 79,
+        "TIPO": "MICROALSAR"
+    },
+    {
+        "CODICE": "B3415094068",
+        "CONNETTORE": "CAVO + VEAM",
+        "DESCRIZIONE": "MICROALSAR/LISCI/6,0M/VEAM/",
+        "ID": 80,
+        "TIPO": "MICROALSAR"
+    },
+    {
+        "CODICE": "B3415094069",
+        "CONNETTORE": "CAVO + VEAM + BUFFER",
+        "DESCRIZIONE": "MICROALSAR/LISCI/6,0M/BUFF/",
+        "ID": 81,
+        "TIPO": "MICROALSAR"
+    },
+    {
+        "CODICE": "B3415094070",
+        "CONNETTORE": "CAVO + VEAM",
+        "DESCRIZIONE": "MICROALSAR/SCAN./6,0M/VEAM/",
+        "ID": 82,
+        "TIPO": "MICROALSAR"
+    },
+    {
+        "CODICE": "B3415094071",
+        "CONNETTORE": "CAVO + VEAM + BUFFER",
+        "DESCRIZIONE": "MICROALSAR/SCAN./6,0M/BUFF/",
+        "ID": 83,
+        "TIPO": "MICROALSAR"
+    },
+    {
+        "CODICE": "B3415094072",
+        "CONNETTORE": "CAVO + VEAM + BUFFER",
+        "DESCRIZIONE": "MICROALSAR/LISCI/ ORIZZ.MT3 BUFFER",
+        "ID": 84,
+        "TIPO": "MICROALSAR"
+    },
+    {
+        "CODICE": "B3415094073",
+        "CONNETTORE": "CAVO + VEAM + BUFFER",
+        "DESCRIZIONE": "MICR.SAR/LISCI/RB2 M.ORIZ.PRE.235MC",
+        "ID": 85,
+        "TIPO": "MICROALSAR"
+    },
+    {
+        "CODICE": "B3415094080",
+        "CONNETTORE": "CAVO + VEAM + BUFFER",
+        "DESCRIZIONE": "MICROALSAR/SCAN./3,0M/BUFFER/ORIZZ.",
+        "ID": 86,
+        "TIPO": "MICROALSAR"
+    },
+    {
+        "CODICE": "B3415094500",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "VEDI 3419939000",
+        "ID": 87,
+        "TIPO": "MICROALSAR"
+    },
+    {
+        "CODICE": "B3413050000",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "VEDI 3413050200 + 6771406206",
+        "ID": 88,
+        "TIPO": "MICROTHRUVAR"
+    },
+    {
+        "CODICE": "B3413050010",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "VEDI 3413050200 + 6771406206",
+        "ID": 89,
+        "TIPO": "MICROTHRUVAR"
+    },
+    {
+        "CODICE": "B3413050100",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "VEDI 3413050200 + 6771406206",
+        "ID": 90,
+        "TIPO": "MICROTHRUVAR"
+    },
+    {
+        "CODICE": "B3413050200",
+        "CONNETTORE": "FISCHER 5 poli (103-A054)",
+        "DESCRIZIONE": "MICROTRUVAR(LVDT) 3MT+FISCHER",
+        "ID": 91,
+        "TIPO": "MICROTHRUVAR"
+    },
+    {
+        "CODICE": "B3413050201",
+        "CONNETTORE": "FISCHER 5 poli (103-A054)",
+        "DESCRIZIONE": "MICROTRUVAR(LVDT) 2MT+FISCHER",
+        "ID": 92,
+        "TIPO": "MICROTHRUVAR"
+    },
+    {
+        "CODICE": "B3413050210",
+        "CONNETTORE": "FISCHER 5 poli (103-A054)",
+        "DESCRIZIONE": "MICROTRUVAR(LVDT) 3MT+FISCHER P80MC",
+        "ID": 93,
+        "TIPO": "MICROTHRUVAR"
+    },
+    {
+        "CODICE": "B3408010000",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "VEDI 3408010001",
+        "ID": 94,
+        "TIPO": "MINIALSAR"
+    },
+    {
+        "CODICE": "B3408010001",
+        "CONNETTORE": "CAVO + BUFFER + VEAM",
+        "DESCRIZIONE": "MINIALSAR RB1,14-1,55 CAVO 3MT.",
+        "ID": 95,
+        "TIPO": "MINIALSAR"
+    },
+    {
+        "CODICE": "B3408010002",
+        "CONNETTORE": "CAVO + BUFFER + VEAM",
+        "DESCRIZIONE": "COME 3408010001 MA CAVO 1,5M",
+        "ID": 96,
+        "TIPO": "MINIALSAR"
+    },
+    {
+        "CODICE": "B3408010003",
+        "CONNETTORE": "CAVO + BUFFER + VEAM",
+        "DESCRIZIONE": "COME 3408010001 MA RB 1,6-2,7",
+        "ID": 97,
+        "TIPO": "MINIALSAR"
+    },
+    {
+        "CODICE": "B3408010004",
+        "CONNETTORE": "CAVO + BUFFER + VEAM",
+        "DESCRIZIONE": "COME 3408010001 MA RB +/- 10%",
+        "ID": 98,
+        "TIPO": "MINIALSAR"
+    },
+    {
+        "CODICE": "B3408010005",
+        "CONNETTORE": "CAVO + BUFFER + VEAM",
+        "DESCRIZIONE": "COME 3408010001 MA CAVO 6M",
+        "ID": 99,
+        "TIPO": "MINIALSAR"
+    },
+    {
+        "CODICE": "B3408010006",
+        "CONNETTORE": "CAVO + BUFFER + VEAM",
+        "DESCRIZIONE": "COME 3408010003 MA CAVO 8M",
+        "ID": 100,
+        "TIPO": "MINIALSAR"
+    },
+    {
+        "CODICE": "B3408010008",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "VEDI 3408387000",
+        "ID": 101,
+        "TIPO": "MINIALSAR"
+    },
+    {
+        "CODICE": "B3408010010",
+        "CONNETTORE": "CAVO + BUFFER + VEAM",
+        "DESCRIZIONE": "MINIALSAR PREC.50 TLX 3648 CH",
+        "ID": 102,
+        "TIPO": "MINIALSAR"
+    },
+    {
+        "CODICE": "B3408010011",
+        "CONNETTORE": "CAVO + BUFFER + VEAM",
+        "DESCRIZIONE": "COME 3408010001 MA CAVO 4,5M",
+        "ID": 103,
+        "TIPO": "MINIALSAR"
+    },
+    {
+        "CODICE": "B3408010012",
+        "CONNETTORE": "CAVO + BUFFER + VEAM",
+        "DESCRIZIONE": "T.M.P.P.MIS.OR.TES.VERT.PREC.250",
+        "ID": 104,
+        "TIPO": "MINIALSAR"
+    },
+    {
+        "CODICE": "B3408010013",
+        "CONNETTORE": "CAVO + BUFFER + VEAM",
+        "DESCRIZIONE": "MINIALS. RB1,6-2,7 PREC. 100 MC MT3",
+        "ID": 105,
+        "TIPO": "MINIALSAR"
+    },
+    {
+        "CODICE": "B3408010014",
+        "CONNETTORE": "CAVO + BUFFER + VEAM",
+        "DESCRIZIONE": "COME 3408010001 MA RB 1,5-2,2",
+        "ID": 106,
+        "TIPO": "MINIALSAR"
+    },
+    {
+        "CODICE": "B3408010015",
+        "CONNETTORE": "CAVO + BUFFER + VEAM",
+        "DESCRIZIONE": "COME 3408010005 MA RB. 2,22",
+        "ID": 107,
+        "TIPO": "MINIALSAR"
+    },
+    {
+        "CODICE": "B3408010016",
+        "CONNETTORE": "CAVO + BUFFER + VEAM",
+        "DESCRIZIONE": "MINIALSAR RB 1,5-2,2 CAVO 4,5M",
+        "ID": 108,
+        "TIPO": "MINIALSAR"
+    },
+    {
+        "CODICE": "B3408010017",
+        "CONNETTORE": "CAVO + BUFFER + VEAM",
+        "DESCRIZIONE": "MINIALSAR RB 1,6-2,7 CAVO 9M",
+        "ID": 109,
+        "TIPO": "MINIALSAR"
+    },
+    {
+        "CODICE": "B3408010018",
+        "CONNETTORE": "CAVO + BUFFER + VEAM",
+        "DESCRIZIONE": "MINIALSAR RB 1,6-2,7 CAVO 6M",
+        "ID": 110,
+        "TIPO": "MINIALSAR"
+    },
+    {
+        "CODICE": "B3408010019",
+        "CONNETTORE": "CAVO + BUFFER + VEAM",
+        "DESCRIZIONE": "COME 3408010014 MA CAVO 6M",
+        "ID": 111,
+        "TIPO": "MINIALSAR"
+    },
+    {
+        "CODICE": "B3408010020",
+        "CONNETTORE": "CAVO + BUFFER + VEAM",
+        "DESCRIZIONE": "VEDI 3408010003",
+        "ID": 112,
+        "TIPO": "MINIALSAR"
+    },
+    {
+        "CODICE": "B3408010021",
+        "CONNETTORE": "CAVO + BUFFER + VEAM",
+        "DESCRIZIONE": "COME 3408010001 MA PREC.100 MICR.",
+        "ID": 113,
+        "TIPO": "MINIALSAR"
+    },
+    {
+        "CODICE": "B3408010022",
+        "CONNETTORE": "CAVO + BUFFER + VEAM",
+        "DESCRIZIONE": "MINIALSAR AP.ZERO 500 MICR.",
+        "ID": 114,
+        "TIPO": "MINIALSAR"
+    },
+    {
+        "CODICE": "B3408010900",
+        "CONNETTORE": "CAVO + BUFFER + VEAM",
+        "DESCRIZIONE": "MINIALS X DIRAC AP.ZERO 450M.",
+        "ID": 115,
+        "TIPO": "MINIALSAR"
+    },
+    {
+        "CODICE": "B3408023000",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "MINIMICROMAR CAVO MT 4,5",
+        "ID": 116,
+        "TIPO": "MINIMICROMAR"
+    },
+    {
+        "CODICE": "B3408023001",
+        "CONNETTORE": "CAVO + BUFFER + VEAM",
+        "DESCRIZIONE": "MINIMICROMAR X BRACC.3244CAVO MT4,5",
+        "ID": 117,
+        "TIPO": "MINIMICROMAR"
+    },
+    {
+        "CODICE": "B3408023002",
+        "CONNETTORE": "CAVO + BUFFER + VEAM",
+        "DESCRIZIONE": "MINIMICROMAR CAVO MT 1,5",
+        "ID": 118,
+        "TIPO": "MINIMICROMAR"
+    },
+    {
+        "CODICE": "B3408023003",
+        "CONNETTORE": "CAVO + BUFFER + VEAM",
+        "DESCRIZIONE": "VEDI 3408023004",
+        "ID": 119,
+        "TIPO": "MINIMICROMAR"
+    },
+    {
+        "CODICE": "B3408023004",
+        "CONNETTORE": "CAVO + BUFFER + VEAM",
+        "DESCRIZIONE": "MINIMICROMAR CAVO MT 10",
+        "ID": 120,
+        "TIPO": "MINIMICROMAR"
+    },
+    {
+        "CODICE": "B3408023005",
+        "CONNETTORE": "CAVO + BUFFER + VEAM",
+        "DESCRIZIONE": "MINIMICROMAR CAVO MT 6",
+        "ID": 121,
+        "TIPO": "MINIMICROMAR"
+    },
+    {
+        "CODICE": "B3408023900",
+        "CONNETTORE": "CAVO + BUFFER + VEAM",
+        "DESCRIZIONE": "TESTA MINIMICROMAR CAVO MT4,5",
+        "ID": 122,
+        "TIPO": "MINIMICROMAR"
+    },
+    {
+        "CODICE": "B3408023901",
+        "CONNETTORE": "CAVO + BUFFER + VEAM",
+        "DESCRIZIONE": "MINIMICROMAR EX 3948 C.MT4,5",
+        "ID": 123,
+        "TIPO": "MINIMICROMAR"
+    },
+    {
+        "CODICE": "B3408023902",
+        "CONNETTORE": "CAVO + BUFFER + VEAM",
+        "DESCRIZIONE": "MINIMICROMAR EX 4756 CAVO MT4,5",
+        "ID": 124,
+        "TIPO": "MINIMICROMAR"
+    },
+    {
+        "CODICE": "B3408023903",
+        "CONNETTORE": "CAVO + BUFFER + VEAM",
+        "DESCRIZIONE": "MINIMICROMAR EX 4094 CAVO MT4,5",
+        "ID": 125,
+        "TIPO": "MINIMICROMAR"
+    },
+    {
+        "CODICE": "B3408023904",
+        "CONNETTORE": "CAVO + BUFFER + VEAM",
+        "DESCRIZIONE": "MINIMICROMAR X RICAMBI CAVO MT4,5",
+        "ID": 126,
+        "TIPO": "MINIMICROMAR"
+    },
+    {
+        "CODICE": "B3408023905",
+        "CONNETTORE": "CAVO + BUFFER + VEAM",
+        "DESCRIZIONE": "VEDI 3408023906",
+        "ID": 127,
+        "TIPO": "MINIMICROMAR"
+    },
+    {
+        "CODICE": "B3408023906",
+        "CONNETTORE": "CAVO + BUFFER + VEAM",
+        "DESCRIZIONE": "MINIMICROMAR CAVO MT.10",
+        "ID": 128,
+        "TIPO": "MINIMICROMAR"
+    },
+    {
+        "CODICE": "B3408023907",
+        "CONNETTORE": "CAVO + BUFFER + VEAM",
+        "DESCRIZIONE": "MINIMICROMAR COME 3408023903 MA 6MT",
+        "ID": 129,
+        "TIPO": "MINIMICROMAR"
+    },
+    {
+        "CODICE": "B3408023908",
+        "CONNETTORE": "CAVO + BUFFER + VEAM",
+        "DESCRIZIONE": "COME 3408023902 MA CAVO MT10",
+        "ID": 130,
+        "TIPO": "MINIMICROMAR"
+    },
+    {
+        "CODICE": "B3408023909",
+        "CONNETTORE": "CAVO + BUFFER + VEAM",
+        "DESCRIZIONE": "MINIMICROMAR EX 5575 CAVO MT4,5",
+        "ID": 131,
+        "TIPO": "MINIMICROMAR"
+    },
+    {
+        "CODICE": "B3407078001",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "VEDI 3407078003",
+        "ID": 132,
+        "TIPO": "MINI PINVAR"
+    },
+    {
+        "CODICE": "B3407078002",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "MPINVAR SPEC.",
+        "ID": 133,
+        "TIPO": "MINI PINVAR"
+    },
+    {
+        "CODICE": "B3407078003",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "VEDI 3407078004",
+        "ID": 134,
+        "TIPO": "MINI PINVAR"
+    },
+    {
+        "CODICE": "B3407078004",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "VEDI 3407078006",
+        "ID": 135,
+        "TIPO": "MINI PINVAR"
+    },
+    {
+        "CODICE": "B3407078006",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "MINIPINVAR CAVO MT.4,5",
+        "ID": 136,
+        "TIPO": "MINI PINVAR"
+    },
+    {
+        "CODICE": "B3407078007",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "COME 3407078006 MA CON BUFFER",
+        "ID": 137,
+        "TIPO": "MINI PINVAR"
+    },
+    {
+        "CODICE": "B3407078008",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "MINIPINVAR CAVO MT.6",
+        "ID": 138,
+        "TIPO": "MINI PINVAR"
+    },
+    {
+        "CODICE": "B3407078009",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "MINIPINVAR-CAVO BUFFER MT.9",
+        "ID": 139,
+        "TIPO": "MINI PINVAR"
+    },
+    {
+        "CODICE": "B3406080401",
+        "CONNETTORE": "FISCHER 5 poli (103-A054)",
+        "DESCRIZIONE": "MINITHRUVAR LVDT+FISCHER CAVO MT3",
+        "ID": 140,
+        "TIPO": "MINI THRUVAR"
+    },
+    {
+        "CODICE": "B3406080500",
+        "CONNETTORE": "VEAM 4P",
+        "DESCRIZIONE": "VEDI 3406080502",
+        "ID": 141,
+        "TIPO": "MINI THRUVAR"
+    },
+    {
+        "CODICE": "B3406080501",
+        "CONNETTORE": "FISCHER 5 poli (103-A054)",
+        "DESCRIZIONE": "VEDI 3406080503",
+        "ID": 142,
+        "TIPO": "MINI THRUVAR"
+    },
+    {
+        "CODICE": "B3406080502",
+        "CONNETTORE": "VEAM 4P",
+        "DESCRIZIONE": "MINITHRUVAR(AG) 1,5M+VEAM 4P",
+        "ID": 143,
+        "TIPO": "MINI THRUVAR"
+    },
+    {
+        "CODICE": "B3406080503",
+        "CONNETTORE": "FISCHER 5 poli (103-A054)",
+        "DESCRIZIONE": "MINITHRUVAR(AG) 1,5M+FISCHER",
+        "ID": 144,
+        "TIPO": "MINI THRUVAR"
+    },
+    {
+        "CODICE": "B3406080504",
+        "CONNETTORE": "FISCHER 5 poli (103-A054)",
+        "DESCRIZIONE": "MINITHRUVAR(AG)RB1,14-1,55 3M+VEAM",
+        "ID": 145,
+        "TIPO": "MINI THRUVAR"
+    },
+    {
+        "CODICE": "B3406080505",
+        "CONNETTORE": "CAVO + BUFFER + VEAM",
+        "DESCRIZIONE": "MINITHRUVAR(AG)RB1,50-2,20 3M+VEAM",
+        "ID": 146,
+        "TIPO": "MINI THRUVAR"
+    },
+    {
+        "CODICE": "B3406080506",
+        "CONNETTORE": "FISCHER 5 poli (103-A054)",
+        "DESCRIZIONE": "MINITHRUVAR(AG)RB1,71 M1,5+FISCHER",
+        "ID": 147,
+        "TIPO": "MINI THRUVAR"
+    },
+    {
+        "CODICE": "B3406080600",
+        "CONNETTORE": "FISCHER 5 poli (103-A054)",
+        "DESCRIZIONE": "MINITHRUVAR(AG)PR60AP/300M1,5+FISC",
+        "ID": 148,
+        "TIPO": "MINI THRUVAR"
+    },
+    {
+        "CODICE": "B3406080601",
+        "CONNETTORE": "FISCHER 5 poli (103-A054)",
+        "DESCRIZIONE": "MINITHRUVAR(AG)PR60MAP/400M1,5+FISC",
+        "ID": 149,
+        "TIPO": "MINI THRUVAR"
+    },
+    {
+        "CODICE": "B3406080803",
+        "CONNETTORE": "FISCHER 5 poli (103-A054)",
+        "DESCRIZIONE": "MINITHRUVAR(AG) FISCHER CAVO MT1,5",
+        "ID": 150,
+        "TIPO": "MINI THRUVAR"
+    },
+    {
+        "CODICE": "B3406080902",
+        "CONNETTORE": "FISCHER 5 poli (103-A054)",
+        "DESCRIZIONE": "MINITHRUVAR(AG) FISCHER CAVO MT2",
+        "ID": 151,
+        "TIPO": "MINI THRUVAR"
+    },
+    {
+        "CODICE": "B3406080903",
+        "CONNETTORE": "FISCHER 5 poli (103-A054)",
+        "DESCRIZIONE": "MINITHRUVAR(AG) FISCHER CAVO MT3",
+        "ID": 152,
+        "TIPO": "MINI THRUVAR"
+    },
+    {
+        "CODICE": "B3406080911",
+        "CONNETTORE": "FISCHER 5 poli (103-A054)",
+        "DESCRIZIONE": "MINITHRUVAR(AG) P.60M.AP.400 MT1,5",
+        "ID": 153,
+        "TIPO": "MINI THRUVAR"
+    },
+    {
+        "CODICE": "B3406080913",
+        "CONNETTORE": "FISCHER 5 poli (103-A054)",
+        "DESCRIZIONE": "MINITHRUVAR(AG) P.60M.AP.400 MT3",
+        "ID": 154,
+        "TIPO": "MINI THRUVAR"
+    },
+    {
+        "CODICE": "B3415115000",
+        "CONNETTORE": "CAVO + BUFFER + VEAM",
+        "DESCRIZIONE": "MINI-TRUVAR DIAM.32+BUFFER+CAVO 6MT",
+        "ID": 155,
+        "TIPO": "MINI THRUVAR 5"
+    },
+    {
+        "CODICE": "B3415115001",
+        "CONNETTORE": "CAVO + BUFFER + VEAM",
+        "DESCRIZIONE": "*MINITHRUVAR 5* L/S 6MT+BUFFER",
+        "ID": 156,
+        "TIPO": "MINI THRUVAR 5"
+    },
+    {
+        "CODICE": "B3415115002",
+        "CONNETTORE": "FISCHER 11 poli  ( 104-A056)",
+        "DESCRIZIONE": "*MINITHRUVAR 5* L/S 3MT+FISCHER",
+        "ID": 157,
+        "TIPO": "MINI THRUVAR 5"
+    },
+    {
+        "CODICE": "B3404717000",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "TESTA MINIVAR RB1,5-2,2 CAVO MT4,5",
+        "ID": 158,
+        "TIPO": "MINIVAR"
+    },
+    {
+        "CODICE": "B3404717001",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "TESTA MINIVAR RB1,6-2,7 CAVO MT4,5",
+        "ID": 159,
+        "TIPO": "MINIVAR"
+    },
+    {
+        "CODICE": "B3404717002",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "TESTA MINIVAR RB1,14-1,55CAVO MT4,5",
+        "ID": 160,
+        "TIPO": "MINIVAR"
+    },
+    {
+        "CODICE": "B3404717011",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "COME 3404717001 MA CAVO IN POS.2",
+        "ID": 161,
+        "TIPO": "MINIVAR"
+    },
+    {
+        "CODICE": "B3404717050",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "MINIVAR DIFF. CAVO MT 7.50",
+        "ID": 162,
+        "TIPO": "MINIVAR"
+    },
+    {
+        "CODICE": "B3404717051",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "MINIV.DIFF.ROV.CAVO MT.7,5",
+        "ID": 163,
+        "TIPO": "MINIVAR"
+    },
+    {
+        "CODICE": "B3404717900",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "GR.TESTA MINIVAR 250+ RICAR.",
+        "ID": 164,
+        "TIPO": "MINIVAR"
+    },
+    {
+        "CODICE": "B3404717901",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "GR.TESTA MINIVAR 250 CON RIC.AZZER.",
+        "ID": 165,
+        "TIPO": "MINIVAR"
+    },
+    {
+        "CODICE": "B3404717902",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "GR.TESTA MINIVAR 400 CON RIC.AZZER.",
+        "ID": 166,
+        "TIPO": "MINIVAR"
+    },
+    {
+        "CODICE": "B3404717904",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "GR.TESTA MINIVAR .125 CON RIC.AZZ.",
+        "ID": 167,
+        "TIPO": "MINIVAR"
+    },
+    {
+        "CODICE": "B3404717912",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "COME 3404717902 MA CAVO IN POS.2",
+        "ID": 168,
+        "TIPO": "MINIVAR"
+    },
+    {
+        "CODICE": "B3415136000",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "CELLULA * PICO-THRUVAR *",
+        "ID": 169,
+        "TIPO": "PICO THRUVAR"
+    },
+    {
+        "CODICE": "B3415136100",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "PICO-THRUVAR",
+        "ID": 170,
+        "TIPO": "PICO THRUVAR"
+    },
+    {
+        "CODICE": "B3415136200",
+        "CONNETTORE": "FISCHER 4 poli ( 102-A053)",
+        "DESCRIZIONE": "PICO-THRUVAR HBT 2MT+FISCHER",
+        "ID": 171,
+        "TIPO": "PICO THRUVAR"
+    },
+    {
+        "CODICE": "B3415136201",
+        "CONNETTORE": "FISCHER 4 poli ( 102-A053)",
+        "DESCRIZIONE": "PICO-THRUVAR HBT(ECOIL) 2MT+FISCHER",
+        "ID": 172,
+        "TIPO": "PICO THRUVAR"
+    },
+    {
+        "CODICE": "B3402835001",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "TESTA PINVAR CAVO MT 4,5",
+        "ID": 173,
+        "TIPO": "PINVAR"
+    },
+    {
+        "CODICE": "B3402835002",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "COME 3402835001 MA CAVO 1,5 MT",
+        "ID": 174,
+        "TIPO": "PINVAR"
+    },
+    {
+        "CODICE": "B3402835003",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "PINVAR CON CONN.5 POLI CAVO MT 1,5",
+        "ID": 175,
+        "TIPO": "PINVAR"
+    },
+    {
+        "CODICE": "B3402835900",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "TESTA PINVAR ATTACCO A VITE EX 2835",
+        "ID": 176,
+        "TIPO": "PINVAR"
+    },
+    {
+        "CODICE": "B3402835901",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "TESTA PINVAR ATT.COULISSE EX 3072",
+        "ID": 177,
+        "TIPO": "PINVAR"
+    },
+    {
+        "CODICE": "B3402835902",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "TESTA PINVAR COME 901 CON CAVO 1,5",
+        "ID": 178,
+        "TIPO": "PINVAR"
+    },
+    {
+        "CODICE": "B3402835903",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "TESTA PINVAR+GR.SUPP.3003573004",
+        "ID": 179,
+        "TIPO": "PINVAR"
+    },
+    {
+        "CODICE": "B3402835904",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "TESTA PINVAR+GR. SUPP.3003573006",
+        "ID": 180,
+        "TIPO": "PINVAR"
+    },
+    {
+        "CODICE": "B3415023000",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "VEDI 3415023400",
+        "ID": 181,
+        "TIPO": "PINVAR WR"
+    },
+    {
+        "CODICE": "B3415023100",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "CELL.ORIZZ.GR.CAMPO+RIC.DP.EFF.",
+        "ID": 182,
+        "TIPO": "PINVAR WR"
+    },
+    {
+        "CODICE": "B3415023200",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "CELL.VERT.GR.CAMPO+RIC.SP.EFF.",
+        "ID": 183,
+        "TIPO": "PINVAR WR"
+    },
+    {
+        "CODICE": "B3415023300",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "VEDI 3415023500",
+        "ID": 184,
+        "TIPO": "PINVAR WR"
+    },
+    {
+        "CODICE": "B3415023400",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "CELL.ORIZZ.GR.CAMPO+RIC.SP.EFF.",
+        "ID": 185,
+        "TIPO": "PINVAR WR"
+    },
+    {
+        "CODICE": "B3415023401",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "CELL.ORIZZ.GR.CAMPO+RIC.SP.EFF.",
+        "ID": 186,
+        "TIPO": "PINVAR WR"
+    },
+    {
+        "CODICE": "B3415023500",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "PINV.W.R.RIC.DP.EFF.MT.8",
+        "ID": 187,
+        "TIPO": "PINVAR WR"
+    },
+    {
+        "CODICE": "B3415023501",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "PINV.W.R. RIC. DP EFF.TO MT 10",
+        "ID": 188,
+        "TIPO": "PINVAR WR"
+    },
+    {
+        "CODICE": "B3415023510",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "\"PINVAR\" RIC.DP.EFF.+SMORZ.10MT.",
+        "ID": 189,
+        "TIPO": "PINVAR WR"
+    },
+    {
+        "CODICE": "B3415023550",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "PINV.W.R.RIC.DP.EFF.MT.4 TOYODA-FX",
+        "ID": 190,
+        "TIPO": "PINVAR WR"
+    },
+    {
+        "CODICE": "B3415023600",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "CELLULA GRANDE CAMPO",
+        "ID": 191,
+        "TIPO": "PINVAR WR"
+    },
+    {
+        "CODICE": "B3402677001",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "2677Y50 THRUVAR COD 290746300",
+        "ID": 192,
+        "TIPO": "THRUVAR"
+    },
+    {
+        "CODICE": "B3402677006",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "VDEY87 THRUVAR COD 2907463006",
+        "ID": 193,
+        "TIPO": "THRUVAR"
+    },
+    {
+        "CODICE": "B3402677015",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "VDE THRUVAR COD 2907463018",
+        "ID": 194,
+        "TIPO": "THRUVAR"
+    },
+    {
+        "CODICE": "B3402677250",
+        "CONNETTORE": "VEAM 4P",
+        "DESCRIZIONE": "THRUVAR(AG) MT1,5+VEAM (7/8-20)",
+        "ID": 195,
+        "TIPO": "THRUVAR"
+    },
+    {
+        "CODICE": "B3402677251",
+        "CONNETTORE": "VEAM 4P",
+        "DESCRIZIONE": "THRUVAR 3402677250+COD.3007965001",
+        "ID": 196,
+        "TIPO": "THRUVAR"
+    },
+    {
+        "CODICE": "B3402677252",
+        "CONNETTORE": "VEAM 4P",
+        "DESCRIZIONE": "THRUVAR 3402677250+COD.3007965002",
+        "ID": 197,
+        "TIPO": "THRUVAR"
+    },
+    {
+        "CODICE": "B3402677253",
+        "CONNETTORE": "VEAM 4P",
+        "DESCRIZIONE": "THRUVAR 3402677250+COD.3007965003",
+        "ID": 198,
+        "TIPO": "THRUVAR"
+    },
+    {
+        "CODICE": "B3402677254",
+        "CONNETTORE": "VEAM 4P",
+        "DESCRIZIONE": "THRUVAR 3402677250+COD.3007965004",
+        "ID": 199,
+        "TIPO": "THRUVAR"
+    },
+    {
+        "CODICE": "B3402677255",
+        "CONNETTORE": "VEAM 4P",
+        "DESCRIZIONE": "THRUVAR 3402677250+COD.3007965005",
+        "ID": 200,
+        "TIPO": "THRUVAR"
+    },
+    {
+        "CODICE": "B3402677256",
+        "CONNETTORE": "VEAM 4P",
+        "DESCRIZIONE": "THRUVAR 3402677250+COD.3007965006",
+        "ID": 201,
+        "TIPO": "THRUVAR"
+    },
+    {
+        "CODICE": "B3402677257",
+        "CONNETTORE": "VEAM 4P",
+        "DESCRIZIONE": "THRUVAR 3402677250+COD.3007965007",
+        "ID": 202,
+        "TIPO": "THRUVAR"
+    },
+    {
+        "CODICE": "B3402677259",
+        "CONNETTORE": "VEAM 4P",
+        "DESCRIZIONE": "THRUVAR 3402677250+COD.3007965009",
+        "ID": 203,
+        "TIPO": "THRUVAR"
+    },
+    {
+        "CODICE": "B3402677300",
+        "CONNETTORE": "VEAM 4P",
+        "DESCRIZIONE": "THRUVAR(AG) MT1,5+VEAM (M20X1)",
+        "ID": 204,
+        "TIPO": "THRUVAR"
+    },
+    {
+        "CODICE": "B3402677301",
+        "CONNETTORE": "VEAM 4P",
+        "DESCRIZIONE": "THRUVAR 3402677300+COD.3007965008",
+        "ID": 205,
+        "TIPO": "THRUVAR"
+    },
+    {
+        "CODICE": "B3402677302",
+        "CONNETTORE": "VEAM 4P",
+        "DESCRIZIONE": "COME 3402677250 MA PER RB 1,73",
+        "ID": 206,
+        "TIPO": "THRUVAR"
+    },
+    {
+        "CODICE": "B3415041000",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "VEDI 3415041002",
+        "ID": 207,
+        "TIPO": "THRUVAR 5"
+    },
+    {
+        "CODICE": "B3415041001",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "VEDI 3415041155",
+        "ID": 208,
+        "TIPO": "THRUVAR 5"
+    },
+    {
+        "CODICE": "B3415041002",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "VEDI 3415041105",
+        "ID": 209,
+        "TIPO": "THRUVAR 5"
+    },
+    {
+        "CODICE": "B3415041003",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "VEDI 3415041100",
+        "ID": 210,
+        "TIPO": "THRUVAR 5"
+    },
+    {
+        "CODICE": "B3415041051",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "VEDI 3415041151",
+        "ID": 211,
+        "TIPO": "THRUVAR 5"
+    },
+    {
+        "CODICE": "B3415041052",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "VEDI 3415041101",
+        "ID": 212,
+        "TIPO": "THRUVAR 5"
+    },
+    {
+        "CODICE": "B3415041100",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "THRUVAR 5 CON RIC.PNEUM.(3+3MM)LB55",
+        "ID": 213,
+        "TIPO": "THRUVAR 5"
+    },
+    {
+        "CODICE": "B3415041101",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "THR.5 RIC.PN.3+3 LB50 - CODOLO D.23",
+        "ID": 214,
+        "TIPO": "THRUVAR 5"
+    },
+    {
+        "CODICE": "B3415041105",
+        "CONNETTORE": "CAVO + VEAM",
+        "DESCRIZIONE": "THRUVAR 5 CON RIC.PNEUM.(3+3MM)LB50",
+        "ID": 215,
+        "TIPO": "THRUVAR 5"
+    },
+    {
+        "CODICE": "B3415041150",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "THRUVAR 5 CODOLO M28X1 (LB55)",
+        "ID": 216,
+        "TIPO": "THRUVAR 5"
+    },
+    {
+        "CODICE": "B3415041151",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "THRUVAR 5 CODOLO D.23 (LB50)",
+        "ID": 217,
+        "TIPO": "THRUVAR 5"
+    },
+    {
+        "CODICE": "B3415041155",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "THRUVAR 5 CODOLO M28X1 (LB50)",
+        "ID": 218,
+        "TIPO": "THRUVAR 5"
+    },
+    {
+        "CODICE": "B3415041156",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "THR.5 STANDARD(LB95)ASSE MIS.ORIZZ.",
+        "ID": 219,
+        "TIPO": "THRUVAR 5"
+    },
+    {
+        "CODICE": "B3415041157",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "THRUVAR 5 CODOLO M28X1 (LB70)",
+        "ID": 220,
+        "TIPO": "THRUVAR 5"
+    },
+    {
+        "CODICE": "B3415041158",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "THRUVAR 5 (COME 155-VERS.TIMKEN)",
+        "ID": 221,
+        "TIPO": "THRUVAR 5"
+    },
+    {
+        "CODICE": "B3415041200",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "THRUVAR 5 CON RIC.PNEUM.(6+6MM)LB55",
+        "ID": 222,
+        "TIPO": "THRUVAR 5"
+    },
+    {
+        "CODICE": "B3415041205",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "THRUVAR 5 CON RIC.PNEUM.(6+6MM)LB50",
+        "ID": 223,
+        "TIPO": "THRUVAR 5"
+    },
+    {
+        "CODICE": "B3415041300",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "VEDI 3415041700",
+        "ID": 224,
+        "TIPO": "THRUVAR 5"
+    },
+    {
+        "CODICE": "B3415041310",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "VEDI 3415041600",
+        "ID": 225,
+        "TIPO": "THRUVAR 5"
+    },
+    {
+        "CODICE": "B3415041400",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "THRUVAR 5 CON RIC.PNEUM.(3+3MM)LB55",
+        "ID": 226,
+        "TIPO": "THRUVAR 5"
+    },
+    {
+        "CODICE": "B3415041401",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "THR.5 RIC.PN.3+3 LB50 - CODOLO D.23",
+        "ID": 227,
+        "TIPO": "THRUVAR 5"
+    },
+    {
+        "CODICE": "B3415041405",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "THRUVAR 5 CON RIC.PNEUM.(3+3MM)LB50",
+        "ID": 228,
+        "TIPO": "THRUVAR 5"
+    },
+    {
+        "CODICE": "B3415041450",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "THRUVAR 5 STANDARD (LB55)",
+        "ID": 229,
+        "TIPO": "THRUVAR 5"
+    },
+    {
+        "CODICE": "B3415041451",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "THR.5 ST. (LB50) VERS.CODOLO D.23",
+        "ID": 230,
+        "TIPO": "THRUVAR 5"
+    },
+    {
+        "CODICE": "B3415041455",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "THRUVAR 5 STANDARD (LB50)",
+        "ID": 231,
+        "TIPO": "THRUVAR 5"
+    },
+    {
+        "CODICE": "B3415041456",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "THR.5 STANDARD(LB95)ASSE MIS.ORIZZ.",
+        "ID": 232,
+        "TIPO": "THRUVAR 5"
+    },
+    {
+        "CODICE": "B3415041457",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "THRUVAR 5 RB 3,32 (LB=70)",
+        "ID": 233,
+        "TIPO": "THRUVAR 5"
+    },
+    {
+        "CODICE": "B3415041458",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "THRUVAR 5 SOSTITUITO DA 3415041455",
+        "ID": 234,
+        "TIPO": "THRUVAR 5"
+    },
+    {
+        "CODICE": "B3415041500",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "THRUVAR 5 CON RIC.PNEUM.(6+6MM)LB55",
+        "ID": 235,
+        "TIPO": "THRUVAR 5"
+    },
+    {
+        "CODICE": "B3415041501",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "THRUVAR 5 RIC PN 6+6 CODOLO D.23",
+        "ID": 236,
+        "TIPO": "THRUVAR 5"
+    },
+    {
+        "CODICE": "B3415041501",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "THRUVAR 5 RIC PN 6+6 CODOLO D.23",
+        "ID": 237,
+        "TIPO": "THRUVAR 5"
+    },
+    {
+        "CODICE": "B3415041505",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "THRUVAR 5 CON RIC.PNEUM.(6+6MM)LB50",
+        "ID": 238,
+        "TIPO": "THRUVAR 5"
+    },
+    {
+        "CODICE": "B3415041550",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "THRUVAR 5 STANDARD (LB 55)",
+        "ID": 239,
+        "TIPO": "THRUVAR 5"
+    },
+    {
+        "CODICE": "B3415041551",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "THRUVAR 5 (LB 50) CODOLO D.23",
+        "ID": 240,
+        "TIPO": "THRUVAR 5"
+    },
+    {
+        "CODICE": "B3415041555",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "THRUVAR 5 STANDARD (LB 50)",
+        "ID": 241,
+        "TIPO": "THRUVAR 5"
+    },
+    {
+        "CODICE": "B3415041556",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "THRUVAR 5 (LB 95) ASSE M.ORIZZ.",
+        "ID": 242,
+        "TIPO": "THRUVAR 5"
+    },
+    {
+        "CODICE": "B3415041557",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "THRUVAR 5 STANDARD (LB 70)",
+        "ID": 243,
+        "TIPO": "THRUVAR 5"
+    },
+    {
+        "CODICE": "B3415041580",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "THRV 5 RIC PN 3+3 COD.D28+4 FORI M5",
+        "ID": 244,
+        "TIPO": "THRUVAR 5"
+    },
+    {
+        "CODICE": "B3415041585",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "THRV 5 RIC PN 6+6 COD.D28+4 FORI M5",
+        "ID": 245,
+        "TIPO": "THRUVAR 5"
+    },
+    {
+        "CODICE": "B3427883010",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "THRUVAR 50+RICAR. PNEUMATICA (7/8)",
+        "ID": 246,
+        "TIPO": "THRUVAR 50"
+    },
+    {
+        "CODICE": "B3427883015",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "THRUVAR 50+RICAR. PNEUMATICA (M28)",
+        "ID": 247,
+        "TIPO": "THRUVAR 50"
+    },
+    {
+        "CODICE": "B3427888010",
+        "CONNETTORE": null,
+        "DESCRIZIONE": "THRUVAR 70+RICARICA PNEUMATICA(M28)",
+        "ID": 248,
+        "TIPO": "THRUVAR 70"
+    },
+    {
+        "CODICE": "B3419939100",
+        "CONNETTORE": "CAVO + VEAM + BUFFER",
+        "DESCRIZIONE": "NEW \"MICROALSAR\" SPESSORE 16 MM",
+        "ID": 249,
+        "TIPO": "MICROALSAR NEW"
+    },
+    {
+        "CODICE": "B3419939150",
+        "CONNETTORE": "CAVO + VEAM + BUFFER",
+        "DESCRIZIONE": "NEW \"MICROALSAR\" SPES.16MM CON RIC.",
+        "ID": 250,
+        "TIPO": "MICROALSAR NEW"
+    },
+    {
+        "CODICE": "B3419939160",
+        "CONNETTORE": "CAVO + VEAM + BUFFER",
+        "DESCRIZIONE": "NEW \"MICROALSAR\" S.16 MM SENZA RIC.",
+        "ID": 251,
+        "TIPO": "MICROALSAR NEW"
+    },
+    {
+        "CODICE": "B3419939200",
+        "CONNETTORE": "CONN. 9P STILE UNIMAR",
+        "DESCRIZIONE": "MINIMICROMAR3 LVDT MT.3 9 PIN",
+        "ID": 252,
+        "TIPO": "MINIMICROMAR"
+    },
+    {
+        "CODICE": "B3419939210",
+        "CONNETTORE": "CONN. 9P STILE UNIMAR",
+        "DESCRIZIONE": "MINIMICROMAR3 LVDT MT.6 9 PIN",
+        "ID": 253,
+        "TIPO": "MINIMICROMAR"
+    },
+    {
+        "CODICE": "B3419939300",
+        "CONNETTORE": "CONN. 9P STILE UNIMAR",
+        "DESCRIZIONE": "MINIMICROMAR3 LVDT RIC. MT.3 9 PIN",
+        "ID": 254,
+        "TIPO": "MINIMICROMAR"
+    },
+    {
+        "CODICE": "B3419939310",
+        "CONNETTORE": "CONN. 9P STILE UNIMAR",
+        "DESCRIZIONE": "MINIMICROMAR3 LVDT RIC. MT.6 9 PIN",
+        "ID": 255,
+        "TIPO": "MINIMICROMAR"
+    },
+    {
+        "CODICE": "123456789",
+        "CONNETTORE": "Connettore sconosciuto",
+        "DESCRIZIONE": "TESTA INVENTATA PER DAVVERO",
+        "ID": 256,
+        "TIPO": "MINIVARIANTE"
+    }
+]

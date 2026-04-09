@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1200</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>SMAO Sensor Monitor - v1.0</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout" stretch="1,0,0">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>1</number>
+      </property>
+      <widget class="QWidget" name="monitorTab">
+       <attribute name="title">
+        <string>📡 Monitoraggio Sensori</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="monitorTabLayout">
+        <item>
+         <widget class="QLabel" name="labelMonitorHeader">
+          <property name="text">
+           <string>📡 MONITORAGGIO SENSORI</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QScrollArea" name="scrollSensors">
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <widget class="QWidget" name="sensorsContainer">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>1156</width>
+             <height>581</height>
+            </rect>
+           </property>
+           <layout class="QVBoxLayout" name="sensorsLayout">
+            <item>
+             <spacer name="sensorsSpacer">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>40</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="visualizationTab">
+       <attribute name="title">
+        <string>📊 Visualizzazione Misure</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="visualizationLayout">
+        <item>
+         <widget class="QLabel" name="labelVisualization">
+          <property name="text">
+           <string>Qui comparirà la visualizzazione misure...</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="manageTab">
+       <attribute name="title">
+        <string>⚙️ Gestione Misure</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="manageLayout">
+        <item>
+         <widget class="QLabel" name="labelManage">
+          <property name="text">
+           <string>Qui comparirà la gestione misure...</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="dbTab">
+       <attribute name="title">
+        <string>🗄️ Database Prodotti</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="dbLayout">
+        <item>
+         <widget class="QLabel" name="labelDB">
+          <property name="text">
+           <string>Qui comparirà la gestione del database prodotti...</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="footerLayout">
+      <item>
+       <layout class="QHBoxLayout" name="footerActionsLayout">
+        <item>
+         <widget class="QPushButton" name="btnConnectSmioo">
+          <property name="text">
+           <string>Connetti SMIOO</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btnConnect">
+          <property name="text">
+           <string>Connetti SMAO</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btnScan">
+          <property name="text">
+           <string>Scansione Canali</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btnAcquire">
+          <property name="text">
+           <string>Start Acquisizione</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btnClearLog">
+          <property name="text">
+           <string>Pulisci Log</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <spacer name="footerSpacerLeft">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QLabel" name="labelChannelsInfo">
+        <property name="text">
+         <string>Canali: 0</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="footerSpacerCenter">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QLabel" name="labelUpdateRate">
+        <property name="text">
+         <string>Update: 10 Hz</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QTextEdit" name="logTextEdit">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>80</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+        font-family: monospace;
+        font-size: 10pt;
+        background: #F7F7F7;
+                            </string>
+      </property>
+      <property name="verticalScrollBarPolicy">
+       <enum>Qt::ScrollBarAlwaysOn</enum>
+      </property>
+      <property name="horizontalScrollBarPolicy">
+       <enum>Qt::ScrollBarAlwaysOff</enum>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

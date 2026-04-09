@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>ProductSelectionDialog</class>
+    <widget class="QDialog" name="ProductSelectionDialog">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>800</width>
+                <height>600</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>Seleziona Prodotto</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+            <property name="spacing">
+                <number>10</number>
+            </property>
+
+            <!-- HEADER (SENZA COLORI) -->
+            <item>
+                <widget class="QLabel" name="labelHeader">
+                    <property name="font">
+                        <font>
+                            <pointsize>14</pointsize>
+                            <bold>true</bold>
+                        </font>
+                    </property>
+                    <property name="text">
+                        <string>🔍 SELEZIONA PRODOTTO</string>
+                    </property>
+                    <property name="alignment">
+                        <set>Qt::AlignCenter</set>
+                    </property>
+                </widget>
+            </item>
+
+            <!-- TOOLBAR RICERCA -->
+            <item>
+                <layout class="QHBoxLayout" name="searchLayout">
+                    <item>
+                        <widget class="QLabel" name="labelSearch">
+                            <property name="font">
+                                <font>
+                                    <bold>true</bold>
+                                </font>
+                            </property>
+                            <property name="text">
+                                <string>Cerca:</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <widget class="QLineEdit" name="inputSearch">
+                            <property name="placeholderText">
+                                <string>Codice, Tipo o Descrizione...</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <widget class="QLabel" name="labelFilterType">
+                            <property name="font">
+                                <font>
+                                    <bold>true</bold>
+                                </font>
+                            </property>
+                            <property name="text">
+                                <string>Tipo:</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <widget class="QComboBox" name="comboType">
+                            <property name="minimumSize">
+                                <size>
+                                    <width>250</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="maximumSize">
+                                <size>
+                                    <width>350</width>
+                                    <height>16777215</height>
+                                </size>
+                            </property>
+                            <item>
+                                <property name="text">
+                                    <string>Tutti i tipi</string>
+                                </property>
+                            </item>
+                        </widget>
+                    </item>
+                </layout>
+            </item>
+
+            <!-- TABELLA PRODOTTI -->
+            <item>
+                <widget class="QTableView" name="tableProducts">
+                    <property name="alternatingRowColors">
+                        <bool>true</bool>
+                    </property>
+                    <property name="selectionMode">
+                        <enum>QAbstractItemView::SingleSelection</enum>
+                    </property>
+                    <property name="selectionBehavior">
+                        <enum>QAbstractItemView::SelectRows</enum>
+                    </property>
+                    <property name="sortingEnabled">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+            </item>
+
+            <!-- INFO PRODOTTO SELEZIONATO -->
+            <item>
+                <widget class="QGroupBox" name="groupProductInfo">
+                    <property name="title">
+                        <string>Dettagli Prodotto Selezionato</string>
+                    </property>
+                    <layout class="QFormLayout" name="formLayout">
+                        <item row="0" column="0">
+                            <widget class="QLabel" name="labelCodeLabel">
+                                <property name="font">
+                                    <font>
+                                        <bold>true</bold>
+                                    </font>
+                                </property>
+                                <property name="text">
+                                    <string>Codice:</string>
+                                </property>
+                            </widget>
+                        </item>
+                        <item row="0" column="1">
+                            <widget class="QLabel" name="labelCode">
+                                <property name="text">
+                                    <string>-</string>
+                                </property>
+                            </widget>
+                        </item>
+                        <item row="1" column="0">
+                            <widget class="QLabel" name="labelTypeLabel">
+                                <property name="font">
+                                    <font>
+                                        <bold>true</bold>
+                                    </font>
+                                </property>
+                                <property name="text">
+                                    <string>Tipo:</string>
+                                </property>
+                            </widget>
+                        </item>
+                        <item row="1" column="1">
+                            <widget class="QLabel" name="labelType">
+                                <property name="text">
+                                    <string>-</string>
+                                </property>
+                            </widget>
+                        </item>
+                        <item row="2" column="0">
+                            <widget class="QLabel" name="labelDescLabel">
+                                <property name="font">
+                                    <font>
+                                        <bold>true</bold>
+                                    </font>
+                                </property>
+                                <property name="text">
+                                    <string>Descrizione:</string>
+                                </property>
+                            </widget>
+                        </item>
+                        <item row="2" column="1">
+                            <widget class="QLabel" name="labelDescription">
+                                <property name="text">
+                                    <string>-</string>
+                                </property>
+                                <property name="wordWrap">
+                                    <bool>true</bool>
+                                </property>
+                            </widget>
+                        </item>
+                        <item row="3" column="0">
+                            <widget class="QLabel" name="labelConnLabel">
+                                <property name="font">
+                                    <font>
+                                        <bold>true</bold>
+                                    </font>
+                                </property>
+                                <property name="text">
+                                    <string>Connettore:</string>
+                                </property>
+                            </widget>
+                        </item>
+                        <item row="3" column="1">
+                            <widget class="QLabel" name="labelConnector">
+                                <property name="text">
+                                    <string>-</string>
+                                </property>
+                            </widget>
+                        </item>
+                    </layout>
+                </widget>
+            </item>
+
+            <!-- PULSANTI -->
+            <item>
+                <widget class="QDialogButtonBox" name="buttonBox">
+                    <property name="standardButtons">
+                        <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+                    </property>
+                </widget>
+            </item>
+        </layout>
+    </widget>
+    <resources/>
+    <connections>
+        <connection>
+            <sender>buttonBox</sender>
+            <signal>accepted()</signal>
+            <receiver>ProductSelectionDialog</receiver>
+            <slot>accept()</slot>
+        </connection>
+        <connection>
+            <sender>buttonBox</sender>
+            <signal>rejected()</signal>
+            <receiver>ProductSelectionDialog</receiver>
+            <slot>reject()</slot>
+        </connection>
+    </connections>
+</ui>

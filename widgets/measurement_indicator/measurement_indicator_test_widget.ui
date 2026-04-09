@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>913</width>
+    <height>95</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="DisplacementIndicator" name="displacementIndicator">
+     <property name="value" stdset="0">
+      <double>25.000000000000000</double>
+     </property>
+     <property name="label" stdset="0">
+      <string>T-01</string>
+     </property>
+     <property name="unit" stdset="0">
+      <string>µm</string>
+     </property>
+     <property name="minRange" stdset="0">
+      <double>-100.000000000000000</double>
+     </property>
+     <property name="maxRange" stdset="0">
+      <double>100.000000000000000</double>
+     </property>
+     <property name="minLimit" stdset="0">
+      <double>-80.000000000000000</double>
+     </property>
+     <property name="maxLimit" stdset="0">
+      <double>80.000000000000000</double>
+     </property>
+     <property name="decimals" stdset="0">
+      <number>2</number>
+     </property>
+     <property name="barHeightRatio" stdset="0">
+      <double>0.500000000000000</double>
+     </property>
+     <property name="barMargin" stdset="0">
+      <number>30</number>
+     </property>
+     <property name="widgetHeight" stdset="0">
+      <number>45</number>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>CODICE</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>MATRICOLA</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_2"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>DESCRIZIONE</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_3"/>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>DisplacementIndicator</class>
+   <extends>QWidget</extends>
+   <header>displacement_indicator</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

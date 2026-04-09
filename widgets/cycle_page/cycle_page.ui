@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>CyclePage</class>
+    <widget class="QWidget" name="CyclePage">
+        <property name="windowTitle">
+            <string>Cicli di Collaudo</string>
+        </property>
+        <layout class="QGridLayout" name="gridLayoutMain">
+            <item row="0" column="0">
+                <layout class="QVBoxLayout" name="layoutCycles">
+                    <item>
+                        <widget class="QLabel" name="labelCycles">
+                            <property name="text">
+                                <string>Cicli disponibili:</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <widget class="QListWidget" name="listCycles"/>
+                    </item>
+                </layout>
+            </item>
+            <item row="0" column="1" colspan="1">
+                <widget class="QStackedWidget" name="pluginContainer"/>
+            </item>
+            <!-- GRUPPO CHECKBOX -->
+            <item row="1" column="0" colspan="2">
+                <widget class="QGroupBox" name="groupBoxCheckbox">
+                    <property name="title">
+                        <string>Visualizza Misure</string>
+                    </property>
+                    <layout class="QGridLayout" name="layoutCheckbox">
+                    </layout>
+                </widget>
+            </item>
+            <item row="2" column="0">
+                <widget class="QtCharts.QChartView" name="cycleChartView"/>
+            </item>
+            <item row="2" column="1">
+                <widget class="QTableWidget" name="cycleDataTable"/>
+            </item>
+        </layout>
+    </widget>
+</ui>

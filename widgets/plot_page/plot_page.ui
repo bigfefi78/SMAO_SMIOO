@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>PlotPage</class>
+    <widget class="QWidget" name="PlotPage">
+        <property name="windowTitle">
+            <string>Grafico Collaudo</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+            <item>
+                <widget class="QLabel" name="labelTitle">
+                    <property name="text">
+                        <string>File di Collaudo</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QListWidget" name="listFiles"/>
+            </item>
+            <item>
+                <widget class="QPushButton" name="btnPlot">
+                    <property name="text">
+                        <string>Visualizza Grafico</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QWidget" name="chartFrame">
+                    <property name="minimumSize">
+                        <size>
+                            <width>600</width>
+                            <height>300</height>
+                        </size>
+                    </property>
+                </widget>
+            </item>
+        </layout>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>

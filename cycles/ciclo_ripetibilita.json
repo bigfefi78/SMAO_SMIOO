@@ -1,0 +1,42 @@
+{
+    "name": "Ciclo ON/OFF luci",
+    "description": "Ripeti attivazione luci.",
+    "steps": [
+        {
+            "action": "repeat",
+            "count": 10,
+            "body": [
+                {
+                    "action": "set_output",
+                    "channel": 10,
+                    "value": 1
+                },
+                {
+                    "action": "set_output",
+                    "channel": 11,
+                    "value": 0
+                },
+                {
+                    "action": "wait_input",
+                    "channel": 3,
+                    "value": 1
+                },
+                {
+                    "action": "set_output",
+                    "channel": 10,
+                    "value": 0
+                },
+                {
+                    "action": "set_output",
+                    "channel": 11,
+                    "value": 1
+                },
+                {
+                    "action": "wait_input",
+                    "channel": 4,
+                    "value": 1
+                }
+            ]
+        }
+    ]
+}
