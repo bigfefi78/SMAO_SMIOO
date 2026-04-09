@@ -119,7 +119,7 @@ class RipetibilitaPlugin(CyclePluginBase):
             measurements_dict = {}
             for m in measures:
                 success = self.api.calculate_measurement(m)
-                if success and m.current_value[1] is not None:
+                if success and m.current_value is not None:
                     # self.api.logger.info(
                     #     f"Misura '{m.name}': Valore={m.current_value}, Codice={m.product_code}, Matricola={m.product_serial_number}, Desc={m.product_description}"
                     # )
