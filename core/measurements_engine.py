@@ -87,12 +87,14 @@ class MeasurementsEngine:
                 sensor_values[channel_label] = channel_info.current_value
 
             # Calcola con formula
-            result = self.formula_evaluator.evaluate(measurement.formula, sensor_values)
+            success, value, error = self.formula_evaluator.evaluate(measurement.formula, sensor_values)
 
-            if result is not None:
-                measurement.current_value = result
+            if success and value is not None:
+                measurement.current_value = value
                 return True
             else:
+                print(f"[MeasurementsEngine] ✗ Errore formula '{measurement.name}': {error}")
+                measurement.status = MeasurementStatus.ERROR
                 return False
 
         except Exception as ex:

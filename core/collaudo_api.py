@@ -41,4 +41,4 @@ class CollaudoAPI:
 
     # DB prodotto
     def get_product(self, code):
-        return self.products_db.get_product_by_code(code)
+        return self.products_db.get_product(code)
