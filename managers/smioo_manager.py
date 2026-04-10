@@ -63,9 +63,6 @@ class SMIOOManager:
             output = self.main.NewOutputBit()
             if bit_number is not None:
                 output.OutputBit = bit_number
-                # self.logger.info(
-                #     f"OutputBit creato per bit #{bit_number}", self.__class__.__name__
-                # )
             else:
                 self.logger.info("OutputBit creato", self.__class__.__name__)
             return output

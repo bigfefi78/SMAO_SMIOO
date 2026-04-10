@@ -4,26 +4,9 @@ Modello dati per Misura calcolata
 
 from dataclasses import dataclass, field
 from typing import List, Optional
-from enum import Enum, auto
 import uuid
 
-
-class MeasurementType(Enum):
-    """Tipo di misura"""
-
-    DIFFERENCE = auto()  # Differenza tra sensori
-    SUM = auto()  # Somma di N sensori
-    AVERAGE = auto()  # Media di N sensori
-    CUSTOM = auto()  # Formula personalizzata
-
-
-class MeasurementStatus(Enum):
-    """Stato di una misura"""
-
-    READY = auto()  # Tutti i sensori disponibili
-    PARTIAL = auto()  # Alcuni sensori mancanti
-    ERROR = auto()  # Errore critico
-    DISABLED = auto()  # Misura disabilitata
+from .enums import MeasurementType, MeasurementStatus
 
 
 @dataclass

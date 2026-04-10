@@ -2,18 +2,17 @@
 Models package - Modelli dati dell'applicazione
 """
 
+from .enums import SMAOStatus, ChannelStatus, MeasurementType, MeasurementStatus
 from .channel_info import ChannelInfo
-from .channel_status import ChannelStatus
-from .smao_status import SMAOStatus
-from .measurement import Measurement, MeasurementType, MeasurementStatus
+from .measurement import Measurement
 from .product import Product
 
 __all__ = [
-    "ChannelInfo",
-    "ChannelStatus",
     "SMAOStatus",
-    "Measurement",
+    "ChannelStatus",
     "MeasurementType",
     "MeasurementStatus",
+    "ChannelInfo",
+    "Measurement",
     "Product",
 ]

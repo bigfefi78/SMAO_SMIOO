@@ -2,15 +2,23 @@
 Gestione connessione e acquisizione dati da SMAO
 """
 
+import traceback
 import win32com.client
 from typing import List, Callable, Optional
-from models import ChannelInfo, SMAOStatus
+from models import ChannelInfo, ChannelStatus, SMAOStatus
 from core.logging_tools import GuiLogger
 
 
 class SensorManager:
     """
-    Gestisce la connessione a SMAO e l'acquisizione dai sensori
+    Gestisce la connessione a SMAO e l'acquisizione dai sensori.
+
+    Ciclo di utilizzo tipico:
+        manager = SensorManager()
+        ok = manager.connect()
+        manager.scan_channels()
+        manager.update_all_channels()   # ripetuto nel loop di acquisizione
+        manager.disconnect()
     """
 
     def __init__(self):
@@ -21,9 +29,12 @@ class SensorManager:
         self.active_channels: List[ChannelInfo] = []
         self.logger = GuiLogger.instance()
 
-        # Callbacks
         self._on_status_changed: Optional[Callable] = None
         self._on_channels_updated: Optional[Callable] = None
+
+    # ======================================
+    # CALLBACKS
+    # ======================================
 
     def on_status_changed(self, callback: Callable):
         """Registra callback per cambio stato"""
@@ -33,25 +44,18 @@ class SensorManager:
         """Registra callback per aggiornamento canali"""
         self._on_channels_updated = callback
 
-    def _set_status(self, new_status: SMAOStatus):
-        """Cambia stato e notifica"""
-        if self.status != new_status:
-            self.status = new_status
-            if self._on_status_changed:
-                self._on_status_changed(new_status)
+    # ======================================
+    # CONNESSIONE
+    # ======================================
 
-    def is_connected(self) -> bool:
-        """Verifica se SMAO è connesso"""
-        return self.status == SMAOStatus.OK
-
-    def initialize(self) -> SMAOStatus:
+    def connect(self) -> bool:
         """
-        Inizializza connessione a SMAO
+        Connette e inizializza SMAO.
+
         Returns:
-            SMAOStatus corrente
+            True se connesso con successo, False altrimenti.
         """
         prog_id = "SMAO.SMaoMain"
-
         try:
             self.smao_main = win32com.client.Dispatch(prog_id)
             result = self.smao_main.Initialize("")
@@ -65,36 +69,44 @@ class SensorManager:
             else:
                 self.smao_info = self.smao_main.Info
                 self._set_status(SMAOStatus.OK)
-                self.logger.info(
-                    "SMAO inizializzato correttamente", self.__class__.__name__
-                )
-
-            return self.status
+                self.logger.info("SMAO inizializzato correttamente", self.__class__.__name__)
 
         except Exception as ex:
-            self.logger.error(
-                f"Errore connessione a SMAO: {ex}", sender=self.__class__.__name__
-            )
-            # print(f"[SensorManager] ✗ Errore connessione: {ex}")
-            import traceback
-
+            self.logger.error(f"Errore connessione a SMAO: {ex}", self.__class__.__name__)
             traceback.print_exc()
             self._set_status(SMAOStatus.NOK)
-            return self.status
+
+        return self.status == SMAOStatus.OK
+
+    def disconnect(self):
+        """Chiude la connessione a SMAO e rilascia le risorse."""
+        if self.smao_main:
+            try:
+                self.smao_main = None
+                self.smao_info = None
+                self._set_status(SMAOStatus.OFF)
+                self.logger.info("SMAO disconnesso.", self.__class__.__name__)
+            except Exception as ex:
+                self.logger.error(f"Errore durante disconnessione: {ex}", self.__class__.__name__)
+
+    def is_connected(self) -> bool:
+        """Verifica se SMAO è connesso e funzionante."""
+        return self.status == SMAOStatus.OK
+
+    # ======================================
+    # ACQUISIZIONE
+    # ======================================
 
     def scan_channels(self) -> int:
         """
-        Scansiona tutti i canali configurati
+        Scansiona tutti i canali configurati e aggiorna le liste
+        `all_channels` e `active_channels`.
 
         Returns:
-            Numero di canali attivi trovati
+            Numero di canali attivi trovati.
         """
         if not self.is_connected():
-            self.logger.error(
-                "SMAO non connesso. Impossibile scansionare canali.",
-                self.__class__.__name__,
-            )
-            # print("[SensorManager] ERRORE: SMAO non connesso")
+            self.logger.error("SMAO non connesso. Impossibile scansionare canali.", self.__class__.__name__)
             return 0
 
         self.all_channels.clear()
@@ -103,10 +115,8 @@ class SensorManager:
         try:
             total_sensors = self.smao_info.SensorsCount
             self.logger.info(
-                f"Scansione {total_sensors} sensori configurati...",
-                self.__class__.__name__,
+                f"Scansione {total_sensors} sensori configurati...", self.__class__.__name__
             )
-            # print(f"[SensorManager] Scansione {total_sensors} sensori configurati...")
 
             for sensor_idx in range(1, total_sensors + 1):
                 driver_name = self.smao_info.SensorDriver(sensor_idx)
@@ -132,24 +142,16 @@ class SensorManager:
                             f"{channel.label} ({driver_name} Ch.{channel_number}): {channel.current_value:.3f} µm",
                             self.__class__.__name__,
                         )
-                        # print(
-                        #     f"  ✓ {channel.label} ({driver_name} Ch.{channel_number}): {channel.current_value:.3f} µm"
-                        # )
 
                     del single_ch
 
                 except Exception as ex:
                     self.logger.error(
-                        f"Errore acquisizione canale {channel.label}: {ex}",
-                        self.__class__.__name__,
+                        f"Errore acquisizione canale {channel.label}: {ex}", self.__class__.__name__
                     )
-                    # print(f"  ✗ {channel.label}: {ex}")
 
                 self.all_channels.append(channel)
 
-            # print(
-            #     f"[SensorManager] ✓ Scansione completata: {len(self.active_channels)} canali attivi su {len(self.all_channels)}"
-            # )
             self.logger.info(
                 f"Scansione completata: {len(self.active_channels)} canali attivi su {len(self.all_channels)}.",
                 self.__class__.__name__,
@@ -161,18 +163,16 @@ class SensorManager:
             return len(self.active_channels)
 
         except Exception as ex:
-            self.logger.error(
-                f"Errore durante scansione canali: {ex}", self.__class__.__name__
-            )
-            # print(f"[SensorManager] ERRORE durante scansione: {ex}")
-            import traceback
-
+            self.logger.error(f"Errore durante scansione canali: {ex}", self.__class__.__name__)
             traceback.print_exc()
             return 0
 
-    def acquire_all_active_channels(self) -> bool:
+    def update_all_channels(self) -> bool:
         """
-        Acquisisce valori da tutti i canali attivi usando SingleChannel
+        Acquisisce i valori aggiornati da tutti i canali attivi.
+
+        Returns:
+            True se l'acquisizione è riuscita, False altrimenti.
         """
         if not self.is_connected():
             return False
@@ -182,103 +182,56 @@ class SensorManager:
                 single_ch = self.smao_main.NewSingleChannel()
                 single_ch.Driver = channel.driver_name
                 single_ch.Channel = channel.channel_number
-
                 single_ch.NumSamples = channel.num_samples
-
                 single_ch.DoAcquisition()
 
-                # Leggi status acquisizione
-                ch_status = single_ch.ChannelStatus
+                channel.current_status = ChannelStatus(single_ch.ChannelStatus)
 
-                # Aggiorna current_status nel ChannelInfo
-                from models import ChannelStatus
-
-                channel.current_status = ChannelStatus(ch_status)
-
-                # Solo se OK, aggiorna valore corrente applicando RB
-                if ch_status == 0:
-                    raw_value = float(single_ch.Value)
-                    corrected_value = raw_value * channel.rb
-                    channel.current_value = corrected_value
+                if single_ch.ChannelStatus == 0:
+                    channel.current_value = float(single_ch.Value) * channel.rb
 
                 del single_ch
 
             return True
 
         except Exception as ex:
-            self.logger.error(
-                f"Errore durante acquisizione canali: {ex}.", {self.__class__.__name__}
-            )
-            import traceback
-
+            self.logger.error(f"Errore durante acquisizione canali: {ex}", sender=self.__class__.__name__)
             traceback.print_exc()
             return False
 
+    # ======================================
+    # RICERCA CANALI
+    # ======================================
+
     def get_active_channels(self) -> List[ChannelInfo]:
-        """Ritorna lista canali attivi"""
+        """Ritorna la lista dei canali attivi."""
         return self.active_channels
 
     def get_all_channels(self) -> List[ChannelInfo]:
-        """Ritorna tutti i canali"""
+        """Ritorna la lista di tutti i canali (attivi e non)."""
         return self.all_channels
 
-    def get_channel_by_user_number(self, user_number: int) -> Optional[ChannelInfo]:
-        """Trova canale per numero utente"""
-        for ch in self.all_channels:
-            if ch.user_channel_number == user_number:
-                return ch
-        return None
-
-    def shutdown(self):
-        """Chiude connessione SMAO"""
-        if self.smao_main:
-            try:
-                self.smao_main = None
-                self.smao_info = None
-                self._set_status(SMAOStatus.OFF)
-                self.logger.info("Shutdown SMAO completato.", self.__class__.__name__)
-            except Exception as e:
-                self.logger.error(
-                    f"Errore durante shutdown: {e}.", self.__class__.__name__
-                )
-
-    # ======================================
-    # METODI ALIAS PER COMPATIBILITÀ
-    # ======================================
-
-    def connect(self) -> bool:
-        """
-        Alias per initialize() - connette a SMAO
-
-        Returns:
-            True se connesso, False altrimenti
-        """
-        status = self.initialize()
-        return status == SMAOStatus.OK
-
-    def disconnect(self):
-        """
-        Alias per shutdown() - disconnette da SMAO
-        """
-        self.shutdown()
-
     def get_channel_by_label(self, label: str) -> Optional[ChannelInfo]:
-        """
-        Trova canale per label (es. "T-01")
-
-        Args:
-            label: Label canale
-
-        Returns:
-            ChannelInfo o None
-        """
+        """Trova un canale per etichetta (es. "T-01")."""
         for ch in self.all_channels:
             if ch.label == label:
                 return ch
         return None
 
-    def update_all_channels(self):
-        """
-        Alias per acquire_all_active_channels() - aggiorna valori
-        """
-        return self.acquire_all_active_channels()
+    def get_channel_by_user_number(self, user_number: int) -> Optional[ChannelInfo]:
+        """Trova un canale per numero utente."""
+        for ch in self.all_channels:
+            if ch.user_channel_number == user_number:
+                return ch
+        return None
+
+    # ======================================
+    # PRIVATI
+    # ======================================
+
+    def _set_status(self, new_status: SMAOStatus):
+        """Aggiorna lo stato e notifica i listener."""
+        if self.status != new_status:
+            self.status = new_status
+            if self._on_status_changed:
+                self._on_status_changed(new_status)

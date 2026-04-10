@@ -60,9 +60,11 @@ def execute_steps(
                     }
                 )
             idx += 1
-        # Se servono altri action, aggiungi qui...
         else:
-            print(f"[WARNING] Azione non riconosciuta: {step['action']}")
+            from core.logging_tools import GuiLogger
+            GuiLogger.instance().warning(
+                f"Azione non riconosciuta: {step['action']}", sender="cycle_engine"
+            )
             idx += 1
 
 
